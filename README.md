@@ -1,6 +1,7 @@
 # Simple Object-triple Mapping
 
-![Python application](https://github.com/lads-gp/simpot/workflows/Python%20application/badge.svg)
+
+![Python package](https://github.com/lads-gp/simpot/workflows/Python%20package/badge.svg)
 
 ## 1. Requirements 
 This module requires the rdflib package installation:
@@ -8,10 +9,10 @@ This module requires the rdflib package installation:
 
 ## 2. How to Install
 For install this package execute the command in your environment:
-> $ pip install crdf-serializer
+> $ pip install simpot
 
 or:
-> $ pip install -i https://test.pypi.org/simple/ crdf-serializer
+> $ pip install -i https://test.pypi.org/simple/ simpot
 
 
 ## 3. How to use
