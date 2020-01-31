@@ -5,7 +5,7 @@ with open ( "README.md" , "r" ) as fh :
 
 setuptools . setup (
     name = "simpot" ,
-    version = "0.0.6" ,
+    version = "0.1.0" ,
     author = "Sergio Souza Costa" ,
     author_email = "prof.sergio.costa@gmail.com" ,
     description = "A simple Python object-triple mapping. ...." ,
