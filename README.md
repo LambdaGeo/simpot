@@ -1,4 +1,6 @@
-# Object-triple Mapping
+# Simple Object-triple Mapping
+
+![Python application](https://github.com/lads-gp/simpot/workflows/Python%20application/badge.svg)
 
 ## 1. Requirements 
 This module requires the rdflib package installation:
