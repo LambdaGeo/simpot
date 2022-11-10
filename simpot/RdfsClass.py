@@ -33,14 +33,8 @@ class RdfsClass():
 
         return inner_func
 
-def graph (value):
-    if isinstance(value, list):
-        gtotal = Graph()
-        for o in value:
-            for s, p, o in o.g:
-                gtotal.add ((s,p,o))
-        return gtotal
-    else:
-        return value.g
+
+
+
 
 
