@@ -14,7 +14,7 @@ def mapper_one (mapper, data ):
     return {item : mapper_item (data, value) for (item, value) in mapper.items()} 
 
 def mapper_all (mapper, data):
-    return map (lambda d: mapper_one(mapper, d), data  )
+    return list(map (lambda d: mapper_one(mapper, d), data  ))
 
 def serialize_to_rdf (data, type_class ):
     rdf = list( map(lambda d: type_class (d), data ) )
