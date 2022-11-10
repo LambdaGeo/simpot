@@ -18,7 +18,7 @@ def mapper_all (mapper, data):
 
 def serialize_to_rdf (data, type_class ):
     rdf = list( map(lambda d: type_class (d), data ) )
-    return (graph(rdf)).serialize().decode()
+    return (graph(rdf)).serialize()
 
 def serialize_to_rdf_file (data, type_class, path ):
     f = open(path,"w+",encoding="utf-8") 
